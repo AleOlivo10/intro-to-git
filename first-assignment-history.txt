@@ -1,0 +1,91 @@
+    1  pwd
+    2  cd /
+    3  ls
+    4  cd home/
+    5  cd ubuntu/
+    6  pwd
+    7  cd workspace/
+    8  mkdir
+    9  mkdir intro-to-git
+   10  cd /
+   11  cd ~
+   12  cd workspace/
+   13  mkdir intro-to-git
+   14  cd intro-to-git/
+   15  git init
+   16  touch README.MD
+   17  c9 README.MD 
+   18  ls
+   19  git remote add origin git@github.com:AleOlivo10/intro-to-git.git
+   20  git add .
+   21  git commit -m "Initialized with a readme file"
+   22* 
+   23  touch mistake
+   24  git add .
+   25  git commit -m "Made a mistake."
+   26  git push -u
+   27  rm mistake
+   28  git add .
+   29  git commit -m "fixed mistake"
+   30  git push -u
+   31  ..
+   32  la
+   33  la -a
+   34  ls
+   35  ls -a
+   36  ..
+   37  ls
+   38  ls -a
+   39  cd home/
+   40  cd /wor
+   41  cd workspace/
+   42  pwd
+   43  /ubuntu
+   44  cd /ubuntu
+   45  ~
+   46  cd/
+   47  cd /
+   48  cd workspace/
+   49  cd /home
+   50  cd workspace/
+   51  cd /workspace
+   52  cd workspace/
+   53  pwd
+   54  cd workspace/
+   55  ls
+   56  cd home/ubuntu/workspace
+   57  cd ubuntu/workspace
+   58  mkdir 8-28-Alejandra
+   59  mkdir 8-28-Olivo
+   60  touch myfile.txt
+   61  git add .
+   62  cd intro-to-git/
+   63  touch myfile.txt
+   64  git add .
+   65  git commit -m "Presto Filo Contents"
+   66  git add "Presto Filo Contents!"
+   67  mkdir 8-28-Alejandra touch myfile.txt
+   68  ..
+   69  mkdir 8-28-Alejandra touch myfile.txt
+   70  mkdir 2-28-Alejandra
+   71  vi myfile.txt
+   72  cat 8-28-Alejandra.txt
+   73  cat myfile.txt
+   74  ls
+   75  rm -r 2-28-Alejandra/
+   76  ls
+   77  rm -r touch
+   78  rm  myfile.txt
+   79  ls
+   80  touch 8-28-Alejandra/myfile.txt
+   81  vi 8-28-Alejandra/myfile.txt
+   82  cat 8-28-Alejandra/myfile.txt
+   83  cp 8-28-Alejandra/myfile.txt 8-28-Olivo/my2ndfile.txt
+   84  ls 8-28-Olivo
+   85  cat 8-28-Olivo/my2ndfile.txt
+   86  ls -l 8-28-Olivo/my2ndfile.txt
+   87  chmod o+w 8-28-Olivo/my2ndfile.txt
+   88  ls -l 8-28-Olivo/my2ndfile.txt
+   89  vi 8-28-Olivo/my2ndfile.txt
+   90  cat 8-28-Olivo/my2ndfile.txt
+   91  history > Alejandra-Olivo-History.txt
